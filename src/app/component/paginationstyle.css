@@ -1,0 +1,21 @@
+
+
+
+.pagination {
+    margin-left : 15%;
+    margin-right : 30%;
+}
+
+ .page-link {
+        font-weight:bold;
+         font-size:20px;
+         color: rgb(17, 16, 16);
+         padding: 16px 26px;
+     
+         
+     }
+    #page-link-fix {
+         
+        width:8%;
+        height:10px;
+     }

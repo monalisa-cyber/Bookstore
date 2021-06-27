@@ -1,0 +1,39 @@
+button {
+  background-color: #4caf50;
+  width: 100%;
+  color: orange;
+  padding: 15px;
+  margin: 10px 0px;
+  border: none;
+  cursor: pointer;
+}
+#contained-modal-header-vcenter{
+  background-color: rgb(56, 125, 148);
+}
+#contained-modal-body-vcenter{
+  background-color: rgb(56, 125, 148);
+}
+#submit{
+  text-align: center;
+  background-color: pink;
+}
+form {
+  border: 3px solid #804f4f;
+}
+
+Body,td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  background-color: pink;
+}
+.container1 {
+  padding: 25px;
+  background-color: rgba(171, 211, 26, 0.171);
+}
+table{
+  border: 1px solid black;
+}
+.container2 {
+  padding: 25px;
+  background-color: rgb(26, 168, 211);
+}
