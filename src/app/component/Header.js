@@ -1,5 +1,6 @@
 import React from "react";
 import brand from './images/brand.png';
+import Cart from './images/cart.png';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Header.css'
 import { Navbar, Nav, Row, Col, Image, Container, Badge } from "react-bootstrap";
@@ -8,7 +9,7 @@ function Header() {
   return (
     <div id="navDiv">
       <Navbar bg="green" expand="lg">
-        <Navbar.Toggle aria-controls="navbarScroll" />
+       
         <Container>
           <Row>
             <Col className='d-none d-sm-block' > 
@@ -25,8 +26,8 @@ function Header() {
           </Row>
           <Row>
             <Col xs={6} md={4}>
-              <Badge bg="primary" style={{ color: "red" }} >New</Badge>
-              <Image src="https://banner2.kisspng.com/20171217/01f/shopping-cart-png-5a364b6d3217e8.4884266315135076932052.jpg" width="30px" height="30px" rounded />
+              <Badge id="count" bg="primary" style={{ color: "red" }} >0</Badge>
+              <Image src={Cart} width="50px" height="50px" rounded />
 
             </Col>
           </Row>

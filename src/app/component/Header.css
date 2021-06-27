@@ -8,3 +8,7 @@
     font-family: 'Lobster', cursive;
     color:blueviolet;
   }
+  #count {
+     margin-bottom:0px;
+      font-size:1.2em;
+  }
