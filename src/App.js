@@ -19,7 +19,7 @@ function App() {
   useEffect(() => {
     const fetchPosts = async () => {
       setLoading(true);
-      const res = await axios.get("http://localhost:8080/api/products");
+      const res = await axios.get("https://salty-taiga-93281.herokuapp.com/api/products");
       setPosts(res.data);
       setLoading(false);
     };

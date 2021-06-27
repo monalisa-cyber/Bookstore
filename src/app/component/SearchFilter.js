@@ -12,7 +12,7 @@ class SearchFilter extends React.Component {
   }
 
   async componentDidMount() {
-    const res = await axios.get("http://localhost:8080/api/products");
+    const res = await axios.get("https://salty-taiga-93281.herokuapp.com/api/products");
     this.setState({
       data: res.data,
     });

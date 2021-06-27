@@ -3,6 +3,7 @@ export function getAllProduct() {
       .then((res) => res.json())
       .then(
         (result) => {
+         
           return result;
         },
         (error) => {
