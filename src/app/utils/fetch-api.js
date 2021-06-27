@@ -1,5 +1,5 @@
 export function getAllProduct() {
-    return fetch("http://localhost:8080/api/products")
+    return fetch("https://salty-taiga-93281.herokuapp.com/api/products")
       .then((res) => res.json())
       .then(
         (result) => {
