@@ -1,18 +1,16 @@
 datalist {
-    display: none;
-  }
-.container-search-feild{
-  float:right;
- 
- margin-right:3.5%;
- margin-top:10px;
+  display: none;
 }
-.container-search-feild   > input{
- padding:0px;
- width:300px;
- height:50px;
-  
- border-radius: 5px 5px 5px 5px;  
- 
+.container-search-feild {
+  float: right;
+
+  margin-right: 3.5%;
+  margin-top: 10px;
 }
- 
+.container-search-feild > input {
+  padding: 0px;
+  width: 300px;
+  height: 50px;
+
+  /* border-radius: 5px 5px 5px 5px;   */
+}

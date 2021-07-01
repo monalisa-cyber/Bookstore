@@ -1,14 +1,12 @@
 #navDiv {
-   background-color: #a0d2eb;
+  background-color: #a0d2eb;
 }
 /*   brand name */
 #brand {
-
-    font-size: 3em;
-    font-family: 'Lobster', cursive;
-    color:blueviolet;
-  }
-  #count {
-     margin-bottom:0px;
-      font-size:1.2em;
-  }
+  font-size: 3em;
+  font-family: "Lobster", cursive;
+  color: blueviolet;
+}
+#count {
+  font-size: 1.2em;
+}
